@@ -23,7 +23,7 @@ Other parts of mechanism: 2 electronic speed controller(ESC), 1 lipo battery, ra
 
 2. Software System Design:
 
-In the software part of this project, the python programming language is used for programming. Ball detection algorithm is programmed using OpenCV computer vision library. Ball tracking algorithm [2] implemented using following techniques: 
+In the software part of this project, the python programming language is used for programming. Ball detection algorithm is programmed using OpenCV computer vision library. Ball tracking algorithm [https://www.pyimagesearch.com/2015/09/14/ball-tracking-with-opencv/] implemented using following techniques: 
 
 ![image](https://user-images.githubusercontent.com/37505916/142758762-5298030a-7b93-4cca-b532-474f473589cc.png)
 

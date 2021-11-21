@@ -7,7 +7,7 @@ Tennis players can easily do exercise together, but tennis could be a bit hard t
 
 SYSTEM DESIGN:
 
-1. Hardware System:
+1. Hardware System Design:
 
 Throwing mechanism consists of two drone motors (brushless DC motor)
 
@@ -20,3 +20,23 @@ Other parts of mechanism: 2 electronic speed controller(ESC), 1 lipo battery, ra
 ![image](https://user-images.githubusercontent.com/37505916/142758648-070097c0-8770-4370-a8ef-4923ffdb065f.png)
 
 ![image](https://user-images.githubusercontent.com/37505916/142758656-8b446f18-fd73-4a23-9304-45abb87ea74e.png)
+
+2. Software System Design:
+
+In the software part of this project, the python programming language is used for programming. Ball detection algorithm is programmed using OpenCV computer vision library. Ball tracking algorithm [2] implemented using following techniques: 
+
+![image](https://user-images.githubusercontent.com/37505916/142758762-5298030a-7b93-4cca-b532-474f473589cc.png)
+
+Robot performs some actions according to the location of detected balls on the camera. To track the balls in an appropriate manner, balls have to be found in an obtainable position. Following figures show some performing actions according to ball location. 
+
+In this figure the ball is found in the left side of the obtained frame so the robot will perform a turning left action: 
+
+![image](https://user-images.githubusercontent.com/37505916/142758813-ef752584-fb43-4de8-bb48-3c6fb8c67ece.png)
+
+In this figure the ball is found in the middle of the obtained frame so the robot will perform going forward action:
+
+![image](https://user-images.githubusercontent.com/37505916/142758860-47f32315-0d2c-441f-8a5b-e8619d9adb63.png)
+
+In this figure the ball is found in the right side of the obtained frame so the robot will perform a turning right action: 
+
+![image](https://user-images.githubusercontent.com/37505916/142758877-50f84bba-51ab-415d-a6ca-5545c3b9c121.png)

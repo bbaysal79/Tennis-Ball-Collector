@@ -9,7 +9,14 @@ SYSTEM DESIGN:
 
 1. Hardware System:
 
-Throwing mechanism consists of two drone motors (brushless DC motor) 
-![image](https://user-images.githubusercontent.com/37505916/142758339-9f68be74-f2ac-49d6-8ef1-6c090c926413.png)
-![image](https://user-images.githubusercontent.com/37505916/142758395-fd8d29d8-5bab-4574-a441-ae2343735bf9.png)
+Throwing mechanism consists of two drone motors (brushless DC motor)
 
+![image](https://user-images.githubusercontent.com/37505916/142758339-9f68be74-f2ac-49d6-8ef1-6c090c926413.png)
+
+![Picture1](https://user-images.githubusercontent.com/37505916/142758468-77a719fe-5d63-4fbd-b067-3ae02fc44553.gif)
+
+Other parts of mechanism: 2 electronic speed controller(ESC), 1 lipo battery, raspberry-pi, camera module, 1 motor driver circuit for mover wheels, 2 car wheel, 2 ball casters (sarhoş tekerlek) 1 for front 1 for rear, basket for ball collecting.
+
+![image](https://user-images.githubusercontent.com/37505916/142758648-070097c0-8770-4370-a8ef-4923ffdb065f.png)
+
+![image](https://user-images.githubusercontent.com/37505916/142758656-8b446f18-fd73-4a23-9304-45abb87ea74e.png)

@@ -40,3 +40,8 @@ In this figure the ball is found in the middle of the obtained frame so the robo
 In this figure the ball is found in the right side of the obtained frame so the robot will perform a turning right action: 
 
 ![image](https://user-images.githubusercontent.com/37505916/142758877-50f84bba-51ab-415d-a6ca-5545c3b9c121.png)
+
+Colour parameters are set using the following software: 
+
+![image](https://user-images.githubusercontent.com/37505916/143568531-8cf5cf33-1a01-4f9e-bc2a-873520ce4607.png)
+
